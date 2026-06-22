@@ -49,11 +49,23 @@ with open("company_info.txt", "r", encoding="utf-8") as file:
 # -----------------------
 
 with st.sidebar:
-    st.header("Gym Information")
-    st.write("🏋️ ABC Fitness Gym")
-    st.write("📍 Kochi")
-    st.write("🕒 6 AM - 10 PM")
-    st.write("📞 9999999999")
+
+    st.header("🏋️ ABC Fitness Gym")
+
+    st.write("📍 Kochi, Kerala")
+    st.write("🕒 5 AM - 11 PM")
+    st.write("📞 +91 99999 99999")
+    st.write("📧 contact@abcfitnessgym.com")
+
+    st.divider()
+
+    st.subheader("Services")
+
+    st.write("✅ Gym Access")
+    st.write("✅ Personal Training")
+    st.write("✅ Yoga")
+    st.write("✅ Zumba")
+    st.write("✅ Nutrition Guidance")
 
 # -----------------------
 # Main Page
@@ -64,6 +76,17 @@ st.title("🏋️ ABC Fitness Gym Chatbot")
 st.caption(
     "Ask questions about memberships, trainers, timings and contact details."
 )
+
+st.markdown("""
+### Example Questions
+
+- What membership plans are available?
+- Do you offer personal training?
+- Who are the trainers?
+- Do you provide diet consultation?
+- What are the gym timings?
+- Is there a free trial?
+""")
 
 # -----------------------
 # Display Chat History

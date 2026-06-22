@@ -1,11 +1,95 @@
-Company Name: Slam Fitness Gym
+ABC Fitness Gym
 
-Location: Kochi
+About Us:
+ABC Fitness Gym is a modern fitness center located in Kochi, offering strength training, cardio workouts, personal training, group fitness classes, and nutrition guidance.
 
-Opening Hours: 6 AM to 10 PM
+Operating Hours:
+Monday - Saturday: 5:00 AM to 11:00 PM
+Sunday: 6:00 AM to 8:00 PM
 
-Monthly Membership: ₹1500
+Membership Plans:
 
-Personal Trainer Available: Yes
+Basic Plan:
 
-Contact: 9999999999
+* ₹1,500 per month
+* Access to gym equipment
+* Locker facility
+
+Standard Plan:
+
+* ₹3,500 for 3 months
+* Access to gym equipment
+* Group fitness classes
+* Locker facility
+
+Premium Plan:
+
+* ₹12,000 per year
+* Full gym access
+* Group fitness classes
+* Monthly fitness assessment
+* Nutrition consultation
+
+Personal Training:
+
+Available with certified trainers.
+
+Pricing:
+
+* ₹4,000 per month (12 sessions)
+* ₹7,000 per month (24 sessions)
+
+Group Classes:
+
+* Yoga
+* Zumba
+* HIIT Training
+* Functional Fitness
+
+Class Timings:
+Morning: 6:00 AM - 8:00 AM
+Evening: 6:00 PM - 8:00 PM
+
+Trainers:
+
+Rahul Menon
+
+* Strength & Conditioning Specialist
+* 8 years experience
+
+Anjali Nair
+
+* Certified Yoga Instructor
+* 6 years experience
+
+Arun Joseph
+
+* Personal Fitness Trainer
+* 5 years experience
+
+Diet Consultation:
+
+Nutrition consultations are available for Premium members.
+Additional consultations cost ₹1,000 per session.
+
+Trial Membership:
+
+New members can use a one-day free trial pass.
+
+Payment Methods:
+
+* UPI
+* Credit Card
+* Debit Card
+* Net Banking
+
+Contact Information:
+
+Phone: +91 99999 99999
+Email: [contact@abcfitnessgym.com](mailto:contact@abcfitnessgym.com)
+Address: MG Road, Kochi, Kerala
+
+Cancellation Policy:
+
+Membership fees are non-refundable after activation.
+Membership can be transferred to another person with management approval.
