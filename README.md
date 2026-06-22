@@ -1,41 +1,42 @@
-# AI FAQ Chatbot
+# ABC Fitness Gym AI Chatbot
 
-An AI-powered FAQ chatbot built with Streamlit and Ollama.
+An AI-powered customer support chatbot built using Streamlit and Groq API.
 
 ## Features
 
-- Answers company-related questions
-- Uses a custom knowledge base
-- Maintains conversation history
-- Simple Streamlit web interface
-- Powered by a local LLM
+* Answers gym-related questions
+* Membership plan information
+* Trainer information
+* Fitness class details
+* Diet consultation information
+* Conversation memory
+* Public web deployment
 
-## Technologies Used
+## Tech Stack
 
-- Python
-- Streamlit
-- Ollama
-- Qwen 2.5
+* Python
+* Streamlit
+* Groq API
+* Llama 3.3 70B
+* GitHub
+* Streamlit Community Cloud
 
-## Project Files
+## Live Demo
 
-- app.py - Main Streamlit application
-- company_info.txt - Knowledge base
-- company_bot.py - Chatbot logic
+Add your Streamlit deployment URL here.
 
-## How to Run
+## Example Questions
 
-1. Install requirements
-2. Start Ollama
-3. Run:
+* What membership plans are available?
+* Do you offer personal training?
+* Who are the trainers?
+* What are the gym timings?
+* Is there a free trial?
 
-```bash
-streamlit run app.py
-```
+## Screenshot
 
-## Future Improvements
+Add screenshots of the application here.
 
-- PDF document support
-- Multiple file upload
-- Better retrieval system
-- Source citations
+## Author
+
+Sabarish
