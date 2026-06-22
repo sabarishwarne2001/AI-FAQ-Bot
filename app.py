@@ -1,5 +1,12 @@
 import streamlit as st
-import requests
+from groq import Groq
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+groq_api_key= os.getenv("GROQ_API_KEY")
+client=Groq(api_key=groq_api_key)
 
 # -----------------------
 # Page Configuration
@@ -82,7 +89,10 @@ if message:
         st.session_state.chat_history
     )
 
-    prompt = f"""
+    messages = [
+    {
+        "role": "system",
+        "content": f"""
 You are a customer support chatbot.
 
 Answer ONLY from the company information below.
@@ -93,26 +103,29 @@ I don't have that information.
 
 Company Information:
 {company_info}
-
+"""
+    },
+    {
+        "role": "user",
+        "content": f"""
 Previous Conversation:
 {conversation}
 
 Current Question:
 {message}
 """
+    }
+]
 
     with st.spinner("Thinking..."):
 
-        response = requests.post(
-            "http://localhost:11434/api/generate",
-            json={
-                "model": "qwen2.5:7b",
-                "prompt": prompt,
-                "stream": False
-            }
-        )
+      response = client.chat.completions.create(
+        model="llama-3.3-70b-versatile",
+        messages=messages,
+        temperature=0.3
+    )
 
-        answer = response.json()["response"]
+    answer = response.choices[0].message.content
 
     if answer.strip() == "":
         answer = "I don't have that information."
