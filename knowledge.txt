@@ -1,0 +1,5 @@
+Shipping takes 5 days.
+
+Returns accepted within 30 days.
+
+Contact support@example.com.
